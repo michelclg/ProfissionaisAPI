@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProfissionaisAPI</name>
+    </assembly>
+    <members>
+        <member name="M:ProfissionaisAPI.Controllers.ProfissionaisController.GetRangeNumeroRegistro(ProfissionaisAPI.Model.ProfissionalConsultaViewModel)">
+            <summary>
+            Este método retorna os profissionais cadastrados na base em ordem alfabética.
+            </summary>
+            <param name="prof"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProfissionaisAPI.Controllers.ProfissionaisController.CreateAsync(ProfissionaisAPI.Model.Profissional)">
+            <summary>
+            Este metódo cadastrar um Profissional na base local.
+            </summary>
+            <param name="newProfissional"> Cadastre um novo Profissional</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProfissionaisAPI.Controllers.ProfissionaisController.UpdateProfissional(System.Int32,ProfissionaisAPI.Model.ProfissionalViewModel)">
+            <summary>
+            Método para alterar um profissional.
+            </summary>
+            <param name="id">Id:</param>
+            <param name="newProfissional"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ProfissionaisAPI.Controllers.ProfissionaisController.Delete(System.Int32)">
+            <summary>
+            Método para deletar um Profissional.
+            </summary>
+            <param name="id">Id:</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
